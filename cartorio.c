@@ -120,9 +120,9 @@ int main () // int main é a função principal para ponto de partida da execuçao d
 		printf ("\t 1 - Registrar nomes \n");
 		printf ("\t 2 - Consultar os nomes\n");
 		printf ("\t 3 - Deletar nomes \n ");
+		printf ("\t 4 - Sair do Sistema \n ");
 		printf ("Opção: "); // fim do menu
 	
-		 
 		scanf("%d", &opcao);
 	
 		system("cls"); //Responsável por limpar a tela
@@ -144,6 +144,11 @@ int main () // int main é a função principal para ponto de partida da execuçao d
 			system ("pause");
 			break;
 		
+			case 4:
+			printf ("Obrigado por utilizar nosso sistema! \n");
+			return 0;	
+			break;
+				
 			default:
 			printf ("Opção não está disponível\n");
 			system ("pause"); 
